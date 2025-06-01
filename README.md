@@ -1,6 +1,7 @@
 # _VirtualPlates-WotLK
-_VirtualPlates is a legacy WotLK addon created by [Saiket](https://www.wowinterface.com/downloads/info14964-_VirtualPlates.html).  
-This is a modified version with a custom design and extended functionality. It may not be compatible with other nameplate addons.
+_VirtualPlates is a legacy addon created by [Saiket](https://www.wowinterface.com/downloads/info14964-_VirtualPlates.html) during WotLK.  
+This is a modified version with a custom design and extended functionality.  
+It may not be compatible with other nameplate addons.
 
 ## Basic Features
 - Scales and sorts nameplates based on their distance to the camera.
@@ -29,7 +30,7 @@ This is a modified version with a custom design and extended functionality. It m
 </p>
 
 ## Optional Dependency
-Extended features require the **C_NamePlate** APIs and **NAME_PLATE_UNIT** Events from Retail, which are not available in WoW 3.3.5a by default.  
+Extended features require the **C_NamePlate** `API` and **NAME_PLATE_UNIT** `Events` from Retail, which are not available in WoW 3.3.5a by default.  
 Support for these APIs and Events is provided through the custom library **AwesomeWotlk**, created by [FrostAtom](https://github.com/FrostAtom).  
 Some of these extended features use [this fork](https://github.com/KhalGH/awesome_wotlk) of **AwesomeWotlk**.
 
