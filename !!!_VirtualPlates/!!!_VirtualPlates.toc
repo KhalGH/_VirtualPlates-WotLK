@@ -1,0 +1,10 @@
+## Interface: 30300
+## Title: _|cffCCCC88VirtualPlates|r
+## Notes: Gives nameplates depth. Modified version by |cffc41f3bKhal|r
+## Author: Saiket, Khal
+## Version: 1.0
+## SavedVariablesPerCharacter: _VirtualPlatesOptionsCharacter
+
+Locales.xml
+_VirtualPlates.lua
+_VirtualPlates.Config.lua
