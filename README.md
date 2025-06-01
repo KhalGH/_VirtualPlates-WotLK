@@ -5,8 +5,8 @@ This is a modified version with a custom design and extended functionality. It m
 ## Basic Features
 - Scales and sorts nameplates based on their distance to the camera.
 - Modified nameplate appearance (configurable via Lua only).
-- Custom glow for the target and mouseover nameplates.
 - Added health percentage, cast spell name and cast timer text.
+- Custom glow for the target and mouseover nameplates.
 - Prioritized sorting for the target nameplate.
 
 ## Extended Features
@@ -15,8 +15,8 @@ This is a modified version with a custom design and extended functionality. It m
 - Nameplate scaling is now based on distance to the player (instead of the camera).
 - Optional distance text displayed on nameplates (`/vpdist`).
 - Distance-based fading for some visual regions.
-- The focus nameplate is now also prioritized, in addition to the target.
 - Custom glow for the focus nameplate.
+- The focus nameplate is now also prioritized, in addition to the target.
 
 ## Optional Dependency
 Extended features require the **C_NamePlate** APIs and **NAME_PLATE_UNIT** Events from Retail, which are not available in WoW 3.3.5a by default.  
