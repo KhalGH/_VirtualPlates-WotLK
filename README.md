@@ -16,7 +16,7 @@ This is a modified version with a custom design and extended functionality. It m
 - Optional distance text displayed on nameplates (`/vpdist`).
 - Distance-based fading for some visual regions.
 - Custom glow for the focus nameplate.
-- The focus nameplate is now also prioritized, in addition to the target.
+- Focus nameplate is now also prioritized in sorting, second to the target.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/KhalGH/_VirtualPlates-WotLK/refs/heads/assets/assets/VirtualPlates_img1.jpg" 
