@@ -10,7 +10,7 @@ This is a modified version with a custom design and extended functionality. It m
 - Prioritized sorting for the target nameplate.
 
 ## Extended Features
-- Support for modern nameplate APIs and Events, with fallbacks when unavailable.
+- Support for modern nameplate APIs and Events.
 - Improved nameplate scanning and handling.
 - Nameplate scaling is now based on distance to the player (instead of the camera).
 - Optional distance text displayed on nameplates (`/vpdist`).
