@@ -21,7 +21,7 @@ This is a modified version with a custom design and extended functionality. It m
 ## Optional Dependency
 Extended features require the **C_NamePlate** APIs and **NAME_PLATE_UNIT** Events from Retail, which are not available in WoW 3.3.5a by default.  
 Support for these APIs and Events is provided through the custom library **AwesomeWotlk**, created by [FrostAtom](https://github.com/FrostAtom).  
-Some of these extended features use this [fork](https://github.com/KhalGH/awesome_wotlk) of **AwesomeWotlk**.
+Some of these extended features use [this fork](https://github.com/KhalGH/awesome_wotlk) of **AwesomeWotlk**.
 
 ## Installation
 1. Download the addon and optionally the [AwesomeWotlk](https://github.com/KhalGH/awesome_wotlk/releases/download/0.1.4-f1/AwesomeWotlk.7z) library.  
