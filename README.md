@@ -10,6 +10,7 @@ It may not be compatible with other nameplate addons.
 - Custom glow for the target and mouseover nameplates.
 - Prioritized sorting for the target nameplate.
 - TotemPlates-style functionality for totems and specific NPCs (editable list in the Totems folder).
+- Minimun level nameplate filter (set via Lua file)
 
 ## Extended Features
 - Support for modern nameplate APIs and Events.
