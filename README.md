@@ -9,15 +9,18 @@ It may not be compatible with other nameplate addons.
 - Added health percentage, cast spell name and cast timer text.
 - Custom glow for the target and mouseover nameplates.
 - Prioritized sorting for the target nameplate.
+- TotemPlates-style functionality for totems and specific NPCs (editable list in the Totems folder).
 
 ## Extended Features
 - Support for modern nameplate APIs and Events.
 - Improved nameplate scanning and handling.
 - Nameplate scaling is now based on distance to the player (instead of the camera).
-- Optional distance text displayed on nameplates (`/vpdist`).
 - Distance-based fading for some visual regions.
 - Custom glow for the focus nameplate.
 - Focus nameplate is now also prioritized in sorting, second to the target.
+- Optional distance text displayed on nameplates (`/vpdist`).
+- Optional class icons on friendly players in PvP instances (`/vpicons`)
+- Optional player-only nameplate filter (`/vpfilter`)
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/KhalGH/_VirtualPlates-WotLK/refs/heads/assets/assets/VirtualPlates_img1.jpg" 
@@ -35,7 +38,7 @@ Support for these APIs and Events is provided through the custom library **Aweso
 Some of these extended features use [this fork](https://github.com/KhalGH/awesome_wotlk) of **AwesomeWotlk**.
 
 ## Installation
-1. Download the [addon](https://github.com/KhalGH/_VirtualPlates-WotLK/releases/download/v1.0/_VirtualPlates_mod-v1.0.zip) and optionally the [AwesomeWotlk](https://github.com/KhalGH/_VirtualPlates-WotLK/releases/download/v1.0/AwesomeWotlk.7z) library.  
+1. Download the [addon](https://github.com/KhalGH/_VirtualPlates-WotLK/releases/download/v1.1/_VirtualPlates_mod-v1.1.zip) and optionally the [AwesomeWotlk](https://github.com/KhalGH/_VirtualPlates-WotLK/releases/download/v1.1/AwesomeWotlk.7z) library.  
 2. Extract the `!!!_VirtualPlates` folder into `World of Warcraft/Interface/AddOns/`.  
 3. Extract `AwesomeWotlk.7z` and follow the `Instructions.txt` file to implement it.  
 4. Restart the game and enable the addon.
@@ -44,3 +47,9 @@ Some of these extended features use [this fork](https://github.com/KhalGH/awesom
 Private servers may have specific rules regarding the use of custom libraries like **AwesomeWotlk**.  
 Please verify your server’s policy to ensure the library is allowed before using it.  
 The addon still works without the library, but is limited to its basic features.
+
+## Information  
+- **Addon Version:** 1.1  
+- **Game Version:** 3.3.5a (WotLK)  
+- **Original Author:** Saiket
+- **Modified by:** Khal
