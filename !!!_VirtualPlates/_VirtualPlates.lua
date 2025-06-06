@@ -282,8 +282,6 @@ do
 						if C_NamePlate_GetNamePlatesDistance then 
 							local Distance = Distances[ Plate ]
 							local unitToken = Plate.namePlateUnitToken
-							local bossIcon = Virtual.bossIcon
-							local eliteIcon = Virtual.eliteIcon
 							if showDistanceText then 
 								Virtual.distanceText:SetText(string.format("%.0f yd", Distance)) 
 							else
