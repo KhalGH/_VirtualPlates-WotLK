@@ -5,4 +5,5 @@
 	<Script file="Locales\Locale-esMX.lua"/>
 	<Script file="Locales\Locale-ruRU.lua"/>
 	<Script file="Locales\Locale-frFR.lua"/>
+	<Script file="Locales\Locale-zhCN.lua"/>
 </Ui>
