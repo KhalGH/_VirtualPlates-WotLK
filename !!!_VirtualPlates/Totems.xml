@@ -5,4 +5,5 @@
     <Script file="Totems\Totems-esMX.lua"/>
     <Script file="Totems\Totems-ruRU.lua"/>
     <Script file="Totems\Totems-frFR.lua"/>
+    <Script file="Totems\Totems-zhCN.lua"/>
 </Ui>
