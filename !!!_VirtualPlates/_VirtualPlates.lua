@@ -27,7 +27,7 @@ me.OptionsCharacterDefault = {
 	MinScale = 0.2;
 	MaxScale = 1;
 	MaxScaleEnabled = true;
-	ScaleFactor = 41;
+	ScaleFactor = 33;
 	ShowClassIcons = true; -- (/vpicons)
 };
 
