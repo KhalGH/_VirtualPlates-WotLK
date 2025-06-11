@@ -97,7 +97,7 @@ local classIcon_Xoffset = -9.6
 local classIcon_Yoffset = -9
 -- Totem Plates
 local totemSize = 23 -- size of the totem (or NPC) icon replacing the nameplate
-local totemOffSet = -17 -- vertical offset for totem icon
+local totemOffSet = -14 -- vertical offset for totem icon
 local totemGlowSize = 128 * totemSize / 88 -- ratio 128:88 comes from texture pixels
 
 ---------------------------- Customization Functions ----------------------------
