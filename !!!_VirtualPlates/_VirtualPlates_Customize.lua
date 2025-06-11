@@ -18,11 +18,11 @@ local math_floor = math.floor
 local unpack = unpack
 
 ------------------------- Core Variables -------------------------
-local VirtualPlates = {} -- Storage table for virtual nameplate frames
-local RealPlates = {} -- Storage table for real nameplate frames
+local VirtualPlates = {} -- storage table for virtual nameplate frames
+local RealPlates = {} -- storage table for real nameplate frames
 local texturePath = "Interface\\AddOns\\!!!_VirtualPlates\\Textures\\"
-local NP_WIDTH = 156.65118520899 -- Nameplate original width (don't modify)
-local NP_HEIGHT = 39.162796302247 -- Nameplate original height (don't modify)
+local NP_WIDTH = 156.65118520899 -- nameplate original width (don't modify)
+local NP_HEIGHT = 39.162796302247 -- nameplate original height (don't modify)
 me.VirtualPlates = VirtualPlates -- reference for _VirtualPlates.lua
 me.RealPlates = RealPlates -- reference for _VirtualPlates.lua
 me.texturePath = texturePath -- reference for _VirtualPlates.lua
@@ -96,9 +96,9 @@ local classIcon_anchor = "LEFT"
 local classIcon_Xoffset = -9.6
 local classIcon_Yoffset = -9
 -- Totem Plates
-local totemSize = 23 -- Size of the totem (or NPC) icon replacing the nameplate
-local totemOffSet = -17 -- Vertical offset for totem icon
-local totemGlowSize = 128 * totemSize / 88 -- Don't modify this
+local totemSize = 23 -- size of the totem (or NPC) icon replacing the nameplate
+local totemOffSet = -17 -- vertical offset for totem icon
+local totemGlowSize = 128 * totemSize / 88 -- ratio 128:88 comes from texture pixels
 
 ---------------------------- Customization Functions ----------------------------
 local function CreateHealthBorder(healthBar)
@@ -394,7 +394,7 @@ function me.CustomizePlate(virtual)
 	virtual:HookScript("OnShow", virtualPlate_OnShow)
 end
 
-local function SetupTotemPlate(Plate)
+function me.SetupTotemPlate(Plate)
 	if not Plate.totemPlate then
 		local Virtual = VirtualPlates[Plate];
 		Plate.totemPlate = CreateFrame("Frame", nil, Plate)
@@ -417,7 +417,6 @@ local function SetupTotemPlate(Plate)
 		Plate.totemPlate.mouseoverGlow:Hide()
 	end
 end
-me.SetupTotemPlate = SetupTotemPlate
 
 local function IsNamePlate(frame)
     if frame:GetName() then return false end
