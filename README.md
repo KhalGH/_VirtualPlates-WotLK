@@ -41,7 +41,7 @@ Extended features require the **C_NamePlate** `API` and **NAME_PLATE_UNIT** `Eve
 Support for these APIs and Events is provided through the custom library **AwesomeWotlk**, created by [FrostAtom](https://github.com/FrostAtom).  
 Some of these extended features use [this fork](https://github.com/KhalGH/awesome_wotlk) of **AwesomeWotlk**.
 
-## Recomendations
+## Recommendations
 _VirtualPlates performs numerous visual update operations for sorting, scaling, and fading each visible nameplate every 0.05 seconds. This can result in a heavy processing load, especially when combined with AwesomeWotlk, which allows extending the nameplate viewing distance and, although very useful, can result in a considerable increase in the number of nameplates on screen.  
 
 To improve performance, consider the following recommendations:
